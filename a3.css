@@ -22,3 +22,13 @@
     background-color: rgb(241, 177, 251);
     color:black
 }
+
+.sage-search-box-module__measureToken:hover{
+    background: #af30c1;
+    color: #fff !important;
+    border-color: #af30c1;
+}
+
+.tokenizer-module__tokenizerContainer .tokenizer-module__token:after{
+    background-color: rgb(255, 65, 65);
+}
