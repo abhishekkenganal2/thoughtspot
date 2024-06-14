@@ -17,3 +17,7 @@
 .trending-base-module__trendingWrapper{
     background-color: white !important;
 }
+
+.tokenizer-module__token{
+    background-color: rgb(241, 177, 251);
+}
