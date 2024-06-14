@@ -23,7 +23,7 @@
     color:black
 }
 
-.sage-search-box-module__measureToken:hover, {
+.sage-search-box-module__measureToken:hover, .sage-search-box-module__attributeToken:hover{
     background: #af30c1;
     color: #fff !important;
     border-color: #af30c1;
