@@ -1,0 +1,23 @@
+.bk-powered-by-ts-ribbon{
+    display: none;
+}
+
+.bk-powered-footer{
+    display:none;
+}
+
+.eureka-search-bar-module__searchBarWrapper{
+    background-color: white;
+}
+
+.carousel-module__carousel{
+    background-color: white;
+}
+
+.trending-base-module__trendingWrapper{
+    background-color: white;
+}
+
+.answer-actions-container-module__answerActionsCompactHover {
+    display: none;
+}
