@@ -1,4 +1,20 @@
-.flex-layout-module__horizontal, .layout-module__horizontal, .answer-edit-panel-module__answerConfigPanel, .flex-layout-module__vertical, .answer-module__leftPanel, .flex-layout-module__vertical.spacing-e>* {
+.layout-module__horizontal{
+    display: none;
+}
+
+.answer-edit-panel-module__answerConfigPanel{
+    display: none;
+}
+
+.flex-layout-module__vertical{
+    display: none;
+}
+
+.answer-module__leftPanel{
+    display: none;
+}
+
+.flex-layout-module__vertical.spacing-e>* {
     display: none;
 }
 
