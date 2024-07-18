@@ -1,4 +1,4 @@
-.layout-module__horizontal{
+.footer-module__footerContainer, .sage-search-bar-module__sageSearchBar, .sage-search-bar-module__undoRedoResetWrapper, .footer-module__footerContainer{
     display: none !important;
 }
 
@@ -7,10 +7,6 @@
 }
 
 .answer-module__leftPanel{
-    display: none !important;
-}
-
-.flex-layout-module__vertical.spacing-e>* {
     display: none !important;
 }
 
