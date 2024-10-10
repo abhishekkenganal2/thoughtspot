@@ -87,8 +87,6 @@ body {
     }
 }
 
-
-
 /* action button always visible */
 .answer-actions-container-module__answerActionsHorizontal:not(:focus-within) .answer-actions-container-module__answerActionsCompact {
     display: block !important;
