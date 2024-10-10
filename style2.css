@@ -34,25 +34,17 @@ body {
 
 
 /* *****KPI***** */
-
-.bk-title-description .bk-title-section .bk-title {
-    /* font-size: 24px !important; */
-    /* font-weight:600 !important; */
-    /* line-height:32px !important; */
-    color: #1a1f22 !important;
-}
-
-.tile-container .tile-size-xs .bk-title {
-    font-size: 13px !important;
+.kpi-module__hero {
+    font-size: 32px !important;
     font-weight: 300 !important;
-    line-height: 16px !important;
-    color: #4c4c4c !important;
+    line-height: 32px !important;
+    color: #0279ff !important;
 }
 
-.tile-size-xs .bk-title-description .bk-title-section {
+.kpi-module__heroDataContainer {
     display: flex !important;
+    flex-direction: row !important;
     justify-content: center !important;
-    width: 100% !important;
 }
 
 /* KPI value styling */
