@@ -1,0 +1,28 @@
+.pinboard-header-module__pinboardLbEmbedHeader {
+display:none !important;
+}
+
+.pinboard-header-module__embedPinboardHeader {
+display:none !important;
+}
+
+.react-grid-layout, .pinboard-content-module__gridContainer {
+background: white !important;
+}
+
+.react-grid-item.cssTransforms {
+border:none !important;
+border-radius:none !important;
+}
+
+.react-grid-item.cssTransforms:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+}
+
+.button-module__buttonWrapper {
+display:none !important;
+}
+
+.footer-module__footerContainer {
+display: none !important;
+}
