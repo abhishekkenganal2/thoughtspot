@@ -68,7 +68,7 @@ body {
     justify-content: center !important;
 }
 
-.answer-title-module__titleText:has(+ .kpi-module__kpi .kpi-module__hero) {
+.answer-content-module__compactVizContainer .answer-title-module__titleText:has(+ .kpi-module__kpi .kpi-module__hero) {
     font-size: 13px !important;
     font-weight: 300 !important;
     line-height: 16px !important;
