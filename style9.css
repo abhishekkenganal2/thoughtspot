@@ -68,6 +68,7 @@ body {
     justify-content: center !important;
 }
 
+
 @media (min-width: 1014px) and (max-width: 1279px) {
     .tile-extraSmall .kpi-module__hero {
         font-size: 32px !important;
