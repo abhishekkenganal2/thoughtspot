@@ -1,0 +1,228 @@
+/* Source Sans Pro font */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+/* Adding font-family and font-weight to chart */
+body {
+    font-family: "Source Sans Pro", sans-serif !important;
+    font-weight: 500 !important;
+}
+
+/* Hiding footer logo */
+.bk-embed .bk-embed-powered-by-ts-ribbon {
+    display: none !important;
+}
+
+/* removing extra chart padding */
+.bk-pinboard-data-viz {
+    padding: 0 !important;
+}
+
+/* chart Footer removing */
+.bk-embed-powered-by-ts-ribbon .bk-powered-footer {
+    display: none !important;
+}
+
+.bk-pinboard-card .bk-pb-card-action-menu .bk-action-button-container {
+    visibility: visible !important;
+    opacity: 1 !important;
+    transform: translateX(4px) !important;
+}
+
+.bk-title-description .bk-description {
+    display: none !important;
+}
+
+/* Removal of all header parts */
+.module__pinboardLbEmbedHeader {
+    display: none
+}
+
+.pinboard-header-module__embedPinboardHeader {
+    display: none
+}
+
+.react-grid-layout,
+.pinboard-content-module__gridContainer {
+    background: white;
+}
+
+.react-grid-item.cssTransforms {
+    border: none;
+    border-radius: none;
+}
+
+.react-grid-item.cssTransforms:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.button-module__buttonWrapper {
+    display: none
+}
+
+.footer-module__footerContainer {
+    display: none !important;
+}
+
+
+/********************************LIVEBOARD FILTERS***************************/
+
+/* Hiding entire header section in liveboard*/
+.bk-pinboard-ribbon {
+    display: none !important;
+}
+
+/********************************LIVEBOARD KPI***************************/
+
+/*KPI Title Cuztomizations*/
+.bk-title-description .bk-title-section .bk-title {
+    /* font-size: 24px !important; */
+    /* font-weight:600 !important; */
+    /* line-height:32px !important; */
+    color: #1a1f22 !important;
+}
+
+.tile-container .tile-size-xs .bk-title {
+    font-size: 13px !important;
+    font-weight: 300 !important;
+    line-height: 16px !important;
+    color: #4c4c4c !important;
+}
+
+.tile-size-xs .bk-title-description .bk-title-section {
+    display: flex !important;
+    justify-content: center !important;
+    width: 100% !important;
+}
+
+.kpi-module__hero {
+    font-size: 32px !important;
+    font-weight: 300 !important;
+    line-height: 32px !important;
+    color: #0279ff !important;
+}
+
+.kpi-module__heroDataContainer {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+}
+
+@media (min-width: 1014px) and (max-width: 1279px) {
+    .tile-size-xs .kpi-module__hero {
+        font-size: 32px !important;
+        font-weight: 300 !important;
+        line-height: 32px !important;
+        color: #0279ff !important;
+    }
+}
+
+@media (max-width: 1013px) {
+    .tile-size-xs .kpi-module__hero {
+        font-size: 32px !important;
+        font-weight: 300 !important;
+        line-height: 32px !important;
+        color: #0279ff !important;
+    }
+}
+
+.bk-pinboard-data-viz .bk-pinboard-viz-header {
+    -webkit-flex-basis: 40px !important;
+    flex-shrink: 40px !important;
+}
+
+.bk-pinboard-data-viz {
+    padding: 5px !important;
+}
+
+.tile-container .tile-size-xs {
+    width: 24.25% !important;
+    z-index: 1 !important;
+}
+
+.tile-container  .tile-size-xs:has(.kpi-module__kpi .kpi-module__hero) .bk-base-pinboard-data-viz .bk-pinboard-data-viz-container {
+    min-height: 8em !important;
+}
+
+.tile-container  .tile-size-xs:has(.kpi-module__kpi .kpi-module__hero) .bk-pinboard-data-viz .bk-pinboard-viz-content {
+  margin-top: 0px !important;
+}
+
+.bk-pinboard-data-viz {
+    box-shadow: none !important;
+}
+
+.tile-size-xs .bk-pinboard-data-viz {
+    border-left: 1px solid #efefef;
+}
+
+.tile-size-xs .bk-pb-card-action-menu {
+    display: none !important;
+}
+
+/* hiding the color palette */
+.colorpicker-module__content{
+    display: none !important;
+}
+
+body .popover-module__positionable.popover-module__in {
+    display: block !important;
+}
+
+.bk-sharable-item-content-container {
+    overflow-y: hidden !important;
+}
+
+/* Expand-collapse box-shadowing none */
+
+.MuiButtonBase-root.MuiFab-root.MuiFab-circular.MuiFab-sizeSmall.MuiFab-default.MuiFab-root:active {
+    box-shadow: none !important;
+}
+
+/* Maximize Chart Secondary description */
+.answer-title-module__descriptionText.answer-title-module__descriptionTextOneLine.content-editable-module__contentEditable {
+    display: none !important;
+}
+
+/* Maximize 3dot option on hover issue */
+.tile-undefined .answer-actions-container-module__answerActionsHorizontal:not(:focus-within) .answer-actions-container-module__answerActionsCompact {
+    display: block !important;
+}
+
+/* KPI 3dot option enabled */
+.tile-size-xs .bk-pb-card-action-menu {
+    margin: -1em -1em 0em 0em !important;
+    display: block !important;
+}
+
+.bk-action-dropdown.popover.bottom {
+    margin-top: 5px !important;
+}
+
+.bk-action-dropdown.popover.bottom .bk-action-menu {
+    padding: 0px !important;
+}
+
+/* KPI Error style */
+
+.muted-alert-module__container.muted-alert-module__regular.muted-alert-module__local .muted-alert-module__illustration.muted-alert-module__local.muted-alert-module__regular {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-bottom: 0.25rem;
+}
+
+
+.muted-alert-module__container.muted-alert-module__regular.muted-alert-module__local .muted-alert-module__content.muted-alert-module__local.muted-alert-module__regular .muted-alert-module__titleWrapper.muted-alert-module__local .typography-module__content-label-subhead {
+    font-size: 0.9rem !important;
+    line-height: 1 !important;
+}
+
+.muted-alert-module__container.muted-alert-module__regular.muted-alert-module__local .typography-module__body-normal {
+    font-size: 0.8rem !important;
+    line-height: 1.4 !important;
+}
+
+
+/* Disabling filter option */
+.menu-module__menuGroupWrapper div[data-testid="bk-filter-option"] {
+    display: none !important;
+}
