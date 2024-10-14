@@ -34,29 +34,29 @@ body {
 
 /* Removal of all header parts */
 .module__pinboardLbEmbedHeader {
-    display: none
+    display: none !important;
 }
 
 .pinboard-header-module__embedPinboardHeader {
-    display: none
+    display: none !important;
 }
 
 .react-grid-layout,
 .pinboard-content-module__gridContainer {
-    background: white;
+    background: white !important;
 }
 
 .react-grid-item.cssTransforms {
-    border: none;
-    border-radius: none;
+    border: none !important;
+    border-radius: none !important;
 }
 
 .react-grid-item.cssTransforms:hover {
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px !important;
 }
 
 .button-module__buttonWrapper {
-    display: none
+    display: none !important;
 }
 
 .footer-module__footerContainer {
