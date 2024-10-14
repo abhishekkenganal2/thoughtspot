@@ -97,7 +97,7 @@ body {
 }
 
 /* KPI title */
-.answer-content-module__compactVizContainer:has(.tile-extraSmall .kpi-module__hero) {
+.answer-content-module__compactVizContainer:has(.tile-extraSmall .kpi-module__hero) .answer-title-module__titleText{
     font-size: 13px !important;
     font-weight: 300 !important;
     line-height: 16px !important;
@@ -131,7 +131,7 @@ body {
     padding: 5px !important;
 }
 
-.slide-show-module__vizSlide:has(.tile-extraSmall .kpi-module__hero) {
+.pinboard-viz-module__tileContent:has(.tile-extraSmall .kpi-module__hero) {
     width: 24.25% !important;
     z-index: 1 !important;
 }
