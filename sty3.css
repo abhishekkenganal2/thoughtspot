@@ -131,7 +131,7 @@ body {
     padding: 5px !important;
 }
 
-.tile-container .tile-size-xs {
+.slide-show-module__vizSlide:has(.kpi-module__kpi .kpi-module__heroDataContainer) {
     width: 24.25% !important;
     z-index: 1 !important;
 }
