@@ -97,7 +97,7 @@ body {
 }
 
 /* KPI title */
-.answer-content-module__compactVizContainer:has(.tile-extraSmall .kpi-module__hero) .answer-title-module__titleText{
+.react-grid-item:has(.tile-extraSmall .kpi-module__hero) .answer-actions-container-module__titleDescriptionSpacer{
     font-size: 13px !important;
     font-weight: 300 !important;
     line-height: 16px !important;
@@ -122,16 +122,16 @@ body {
     }
 }
 
-.bk-pinboard-data-viz .bk-pinboard-viz-header {
+.react-grid-item:has(.tile-extraSmall .kpi-module__hero) .answer-actions-container-module__titleDescriptionSpacer{
     -webkit-flex-basis: 40px !important;
     flex-shrink: 40px !important;
 }
 
-.bk-pinboard-data-viz {
+.react-grid-item:has(.tile-extraSmall .kpi-module__hero) {
     padding: 5px !important;
 }
 
-.pinboard-viz-module__tileContent:has(.tile-extraSmall .kpi-module__hero) {
+.react-grid-item .pinboard-content-module__tile:has(.tile-extraSmall .kpi-module__hero) {
     width: 24.25% !important;
     z-index: 1 !important;
 }
