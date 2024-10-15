@@ -105,11 +105,6 @@ body {
     padding: 5px !important;
 }
 
-/* .slide-show-module__vizSlide:has(.kpi-module__kpi){
-    width: 24.25% !important;
-    z-index: 1 !important;
-} */
-
 /* .tile-container  .tile-size-xs:has(.kpi-module__kpi .kpi-module__hero) .bk-base-pinboard-data-viz .bk-pinboard-data-viz-container  */
 .pinboard-viz-content-module__answer:has(.kpi-module__kpi){
     min-height: 8em !important;
@@ -130,10 +125,6 @@ body {
     display: none !important;
 }
 
-/* .button-module__button.button-module__buttonWithText {
-    display: none !important;
-} */
-
 /* Disabling filter option */
 .menu-module__menuGroupWrapper div[data-testid="bk-filter-option"] {
     display: none !important;
@@ -146,7 +137,7 @@ body {
 
 /* layout border */
 .react-grid-item:has(.kpi-module__kpi){
-    width: 24.25% !important;
+    width: 30.25% !important;
     z-index: 1 !important;
     border: none !important;
     border-radius: none !important;
