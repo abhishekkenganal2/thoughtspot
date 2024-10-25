@@ -1,0 +1,164 @@
+/* Source Sans Pro font */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+/* Adding font-family and font-weight to chart */
+body {
+    font-family: "Source Sans Pro", sans-serif !important;
+    font-weight: 500 !important;
+}
+
+/* changing background color of the liveboard */
+.pinboard-content-module__gridContainer {
+    background-color: #fff ;
+}
+
+/* hiding header of liveboard */
+.pinboard-header-module__pinboardHeaderContainer .pinboard-header-module__pinboardLbEmbedHeader {
+    display: none !important;
+    background-color: #fff !important;
+}
+
+.pinboard-header-module__pinboardHeaderContainer {
+    /* display: none !important; */
+    padding: 0px !important;
+    margin: 0px !important;
+    border-radius: 0px !important;
+    background-color: #fff !important;
+}
+
+.pinboard-tab-panel-module__tabPanel{
+    border: none !important;
+}
+
+/* Hiding footer */
+.footer-module__footerContainer.layout-module__horizontal {
+    display: none !important;
+}
+
+/* removing description text from both charts and KPI */
+.answer-title-module__descriptionTextOneLine {
+    display: none !important;
+}
+
+/* *****KPI***** */
+
+.slide-show-module__vizSlide .answer-title-module__titleText {
+    color: #1a1f22 !important;
+}
+
+.slide-show-module__vizSlide .answer-title-module__titleContainerCompact {
+    display: flex !important;
+    justify-content: center !important;
+    width: 100% !important;
+}
+
+.kpi-module__hero {
+    font-size: 32px !important;
+    font-weight: 300 !important;
+    line-height: 32px !important;
+    color: #0279ff !important;
+}
+
+.kpi-module__heroDataContainer {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+}
+
+/* KPI title */
+.slide-show-module__vizSlide:has(.kpi-module__kpi) .answer-content-header-module__compactContainer .answer-title-module__titleText{
+    font-size: 13px !important;
+    font-weight: 300 !important;
+    line-height: 16px !important;
+    color: #4c4c4c !important;
+}
+
+@media (min-width: 1014px) and (max-width: 1279px) {
+    .tile-extraSmall .kpi-module__hero {
+        font-size: 32px !important;
+        font-weight: 300 !important;
+        line-height: 32px !important;
+        color: #0279ff !important;
+    }
+}
+
+@media (max-width: 1013px) {
+    .tile-extraSmall .kpi-module__hero {
+        font-size: 32px !important;
+        font-weight: 300 !important;
+        line-height: 32px !important;
+        color: #0279ff !important;
+    }
+}
+
+.answer-content-module__vizContainer .answer-title-module__titleContainerCompact {
+    -webkit-flex-basis: 40px !important;
+    flex-shrink: 40px !important;
+}
+
+.answer-content-module__vizContainer{
+    padding: 5px !important;
+}
+
+.react-grid-item:has(.kpi-module__kpi) .answer-content-module__vizContainer{
+    min-height: 8em !important;
+}
+
+.react-grid-item:has(.kpi-module__kpi) .answer-content-module__compactVizContainer{
+    border-left: 1px solid #efefef !important;
+}
+
+.rdLoaderGlobalWrap:has(.kpi-module__kpi){
+  margin-top: 0px !important;
+}
+
+/* action button always visible */
+.answer-actions-container-module__answerActionsHorizontal:not(:focus-within) .answer-actions-container-module__answerActionsCompact {
+    display: block !important;
+}
+
+/* hiding ask sage button */
+.button-module__buttonWrapper.answer-actions-container-module__primaryActionButton {
+    display: none !important;
+}
+
+/* Disabling filter option */
+.menu-module__menuGroupWrapper div[data-testid="bk-filter-option"] {
+    display: none !important;
+}
+
+/* Disabling colour palette */
+.colorpicker-module__content {
+    display: none !important;
+}
+
+/* layout border */
+/* .react-grid-item:has(.kpi-module__kpi){
+    width: 24.25% !important;
+    z-index: 1 !important;
+    border: none !important;
+    border-radius: none !important;
+} */
+
+.react-grid-item{
+    border: none !important;
+    border-radius: none !important;
+}
+
+/* layout box-shadow */
+.react-grid-item:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px !important;
+}
+
+/* After save */
+.kpi-module__sublabel{
+    display: none !important;
+}
+
+.kpi-module__comparisonEmpty, .kpi-module__sparkline{
+    display: none !important;
+}
+
+.kpi-module__sublabel, .kpi-module__comparison {
+    display: none !important;
+}
